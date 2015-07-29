@@ -1,0 +1,21 @@
+.top1 {
+	background-color: lightblue;
+	border: solid;
+	border-bottom: none;
+}
+
+.top2 {
+	background-color: lightblue;
+	border: solid;
+	border-top: none;
+	margin-bottom: 20px;
+}
+
+.mainsearch {
+	width: 20cm;
+}
+
+.box {
+	border: solid;
+	padding: 60px;
+}
