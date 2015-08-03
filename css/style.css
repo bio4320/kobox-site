@@ -13,21 +13,29 @@
   	padding-bottom-bottom: 300px;
   }
 
-  #seg1 {
-  	padding: 20px;
-  	background-color: green;
-  }
+#seg1 {
+	padding: 10px;
+	background-color: green;
+}
 
-   #seg2 {
-  	padding: 20px;
-  	background-color: blue;
-  }
+#seg2 {
+	padding: 10px;
+	background-color: blue;
+}
 
-   #seg3 {
-  	padding: 20px;
-  	background-color: magenta;
-  }
+#seg3 {
+	padding: 10px;
+	background-color: magenta;
+}
 
-  body {
-  	background-color: lightgreen;
-  }
+body {
+	background-color: lightgreen;
+}
+
+.row {
+	margin-top: 20px;
+}
+
+.video {
+	text-align: center;
+}
