@@ -12,20 +12,6 @@
   .carousel {
   	padding-bottom-bottom: 300px;
   }
-
-#seg1 {
-	padding: 10px;
-	background-color: green;
-}
-
-#seg2 {
-	padding: 10px;
-	background-color: blue;
-}
-
-#seg3 {
-	padding: 10px;
-	background-color: magenta;
 }
 
 body {
@@ -45,5 +31,26 @@ body {
 }
 
 #slogans {
-	background-color: yellow;
+	background-color: lightyellow;
+	border-top: 5px;
+	border-bottom: 5px;
+	border-color: black;
+	border-style: solid;
+
+}
+
+.circle {
+	background-color: #C6F5A1;
+	height: 100%;
+	padding: 10px;
+	border-radius:50%;
+	font-size:20px;
+	line-height:100px;
+	text-align:center;
+	margin: 30px;
+	border: 5px;
+	border-color: blue;
+	border-style: solid;
+	line-height: 150%;
+	padding: 0px 20px;
 }
