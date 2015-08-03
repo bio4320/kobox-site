@@ -29,7 +29,7 @@
 }
 
 body {
-	background-color: #009933;
+	background-color:;
 }
 
 .row {
@@ -38,4 +38,12 @@ body {
 
 .video {
 	text-align: center;
+}
+
+.step {
+	text-align: right;
+}
+
+#slogans {
+	background-color: yellow;
 }
