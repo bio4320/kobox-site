@@ -8,3 +8,26 @@
       width: 70%;
       margin: auto;
   }
+
+  .carousel {
+  	padding-bottom-bottom: 300px;
+  }
+
+  #seg1 {
+  	padding: 20px;
+  	background-color: green;
+  }
+
+   #seg2 {
+  	padding: 20px;
+  	background-color: blue;
+  }
+
+   #seg3 {
+  	padding: 20px;
+  	background-color: magenta;
+  }
+
+  body {
+  	background-color: lightgreen;
+  }
