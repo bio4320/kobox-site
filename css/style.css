@@ -74,3 +74,8 @@
 	background-image: url(../images/jumbo-background.jpg);
 	padding: 265px;
 }
+
+.steps p {
+	margin-top: 40px;
+	font-size: 20px
+}
