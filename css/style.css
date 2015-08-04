@@ -14,13 +14,9 @@
   }
 }
 
-body {
-	background-color:;
-}
-
-.row {
+/**.row {
 	margin-top: 20px;
-}
+}**/
 
 .video {
 	text-align: center;
@@ -39,7 +35,7 @@ body {
 
 }
 
-.circle {
+/**.circle {
 	background-color: #C6F5A1;
 	height: 100%;
 	padding: 10px;
@@ -53,12 +49,26 @@ body {
 	border-style: solid;
 	line-height: 150%;
 	padding: 0px 20px;
+}**/
+
+.circle {
+	width: 340px;
+	height: 340px;
+	border-radius: 250px;
+	background-color: rgba(169, 169, 233, 0.8);
+	text-align: center;
 }
 
 .navbar {
-	background-color: rgba(255,255,255,0.8)
+	background-color: rgba(235,235,235,0.8)
 }
 
 .navbar h1 {
 	font-family: 'Handlee', cursive;
+}
+
+.jumbotron {
+	background-image: url(../images/jumbo-background.jpg);
+	padding: 100px;
+	margin-top: 90px
 }
