@@ -51,11 +51,17 @@
 	padding: 0px 20px;
 }**/
 
+.circle-big {
+	width: 130px;
+	height: 130px;
+	border-radius: 80px;
+	background-color: rgb(169, 169, 233);
+}
+
 .circle {
 	width: 80px;
 	height: 80px;
 	border-radius: 80px;
-	background-color: rgb(169, 169, 233);
 }
 
 .circle h1 {
@@ -72,7 +78,23 @@
 
 .jumbotron {
 	background-image: url(../images/jumbo-background.jpg);
-	padding: 265px;
+	padding: 157px;
+}
+
+.jumbotron h1 {
+	margin-top: -60px;
+	margin-left: 20px
+}
+
+.jumbotron h3 {
+	margin-left: 20px
+}
+
+.visible {
+	background-color: rgba(255,255,255,0.6);
+	border-radius: 25px;
+	padding-top: 75px;
+	padding-bottom: 10px
 }
 
 .steps p {
@@ -82,4 +104,14 @@
 
 .video {
 	text-align: right;
+}
+
+#mc_embed_signup {
+	background-color: rgba(255,255,255,0.6);
+	border-radius: 25px
+}
+
+form {
+	margin-left: 10px;
+	padding: 10px
 }
