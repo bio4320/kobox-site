@@ -100,7 +100,7 @@
 	background-image: url(../images/jumbo-background.jpg);
 	background-size: cover;
 	padding-top: 250px;
-	padding-bottom: 130px
+	padding-bottom: 80px
 }
 
 .jumbotron h1 {
@@ -125,7 +125,8 @@
 
 .steps p {
 	margin-top: 40px;
-	font-size: 20px
+	font-size: 20px;
+	padding-bottom: 50px
 }
 
 .video {
