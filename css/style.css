@@ -56,6 +56,8 @@
 	height: 130px;
 	border-radius: 80px;
 	background-color: rgb(169, 169, 233);
+	margin-top: 25px;
+	margin-bottom: 25px;
 }
 
 .circle {
@@ -69,7 +71,8 @@
 }
 
 .navbar {
-	background-color: rgba(235,235,235,0.5)
+	background-color: rgba(235,235,235,0.5);
+	margin-bottom: -100px;
 }
 
 .navbar h1 {
@@ -78,7 +81,8 @@
 
 .jumbotron {
 	background-image: url(../images/jumbo-background.jpg);
-	padding: 157px;
+	background-size: cover;
+	padding-top: 250px;
 }
 
 .jumbotron h1 {
@@ -120,10 +124,22 @@ h1 {
 	font-family:Handlee;
 }
 
-.about-names {
+.about {
+	margin-top: 50px;
 	text-align: center;
 }
 
-.about.pics {
-	margin-top: 50px;
+.profile {
+	margin-top: -10px;
+	margin-bottom: 50px;
+}
+
+.landing {
+	padding-top: 170px;
+}
+
+@media (max-width: 767px {
+	.circle-big {
+		margin-top: 25px;
+	}
 }
