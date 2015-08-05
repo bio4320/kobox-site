@@ -115,3 +115,15 @@ form {
 	margin-left: 10px;
 	padding: 10px
 }
+
+h1 {
+	font-family:Handlee;
+}
+
+.about-names {
+	text-align: center;
+}
+
+.about.pics {
+	margin-top: 50px;
+}
