@@ -161,6 +161,10 @@ h1 {
 	padding-top: 170px;
 }
 
+body {
+	position: relative;
+}
+
 @media (max-width: 767px) {
 	.circle-big {
 		margin-top: 25px;
