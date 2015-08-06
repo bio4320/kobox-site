@@ -165,6 +165,16 @@ body {
 	position: relative;
 }
 
+.modal-body {
+	height: 100%;
+	width: 100%;
+}
+
+.modal-content {
+	height: 100vh;
+	width: 100vh;
+}
+
 @media (max-width: 767px) {
 	.circle-big {
 		margin-top: 25px;
