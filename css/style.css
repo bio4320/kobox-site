@@ -32,7 +32,6 @@
 	border-bottom: 5px;
 	border-color: black;
 	border-style: solid;
-
 }
 
 /**.circle {
@@ -66,6 +65,25 @@
 	border-radius: 80px;
 }
 
+.circle-video {
+	height: 270px;
+	width: 270px;
+	border-radius: 135px;
+	background-color: rgba(235,235,235,0.75);
+	padding-top: 15px;
+	padding-right: 40px;
+	cursor: pointer;
+}
+
+.circle-video:hover {
+	background-color: white;
+}
+
+.img-video {
+	height: 240px;
+	width: 240px;
+}
+
 .circle h1 {
 	padding-top: 20px
 }
@@ -96,11 +114,17 @@
 	font-size: 20px;
 }
 
-.jumbotron {
+.jumbotron-main {
 	background-image: url(../images/jumbo-background.jpg);
 	background-size: cover;
 	padding-top: 250px;
 	padding-bottom: 80px
+}
+
+.jumbotron-transparent {
+	padding: 7px;
+	padding-left: 500px;
+	background-color: rgba(255,255,255,0.6);
 }
 
 .jumbotron h1 {
@@ -152,6 +176,12 @@ h1 {
 	text-align: center;
 }
 
+#email {
+	text-align: left;
+	margin-bottom: 50px;
+	font-size: 20px;
+}
+
 .profile {
 	margin-top: -10px;
 	margin-bottom: 50px;
@@ -165,14 +195,21 @@ body {
 	position: relative;
 }
 
-.modal-body {
-	height: 100%;
-	width: 100%;
+.modal-dialog {
+	height: 42.1875vh;
+	width: 75vh;
+	margin-left: 12.5vw;
+	margin-right: 12.5vw;
 }
 
-.modal-content {
-	height: 100vh;
-	width: 100vh;
+.modal {
+	vertical-align: center;
+}
+
+#video {
+	height: 42.1875vw;
+	width: 75vw;
+	margin: none;
 }
 
 @media (max-width: 767px) {
