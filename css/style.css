@@ -18,8 +18,6 @@
 	margin-top: 20px;
 }**/
 
-.video {
-	text-align: center;
 }
 
 .step {
@@ -123,7 +121,7 @@
 
 .jumbotron-transparent {
 	padding: 7px;
-	padding-left: 500px;
+	padding-left: px;
 	background-color: rgba(255,255,255,0.6);
 }
 
@@ -212,16 +210,33 @@ body {
 	margin: none;
 }
 
+.video-sm {
+	width: 90vw;
+	margin: auto;
+	margin-top: 75px;
+}
+
+#videosm {
+	width: 90vw;
+}
+
+@media (min-width: 768px) {
+	.video-sm {
+		display: none;
+	}
+}
+
 @media (max-width: 767px) {
 	.circle-big {
 		margin-top: 25px;
 	}
+	
 	.jumbotron img {
 		margin-left: 0px;
 	}
 
-	.profpic {
-
+	.video-lg {
+		display: none;
 	}
 }
 
